@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Daily Professional Word",
+    "description": "Get a new professional English word every day with definition and changing example sentences.",
+    "version": "1.0",
+    "permissions": ["storage", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "chrome_url_overrides": {
+      "newtab": "popup.html"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+#content {
+    max-width: 300px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#word {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#definition {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#example {
+    font-size: 16px;
+    color: #555;
+}
